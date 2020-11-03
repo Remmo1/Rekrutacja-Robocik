@@ -5,7 +5,6 @@ import time
 
 n = int(input("Ile sygnałów: "))
 deltaT = int(input("Co ile sekund: "))
-i = 0
 l = 0
 xk = 0
 yk = 0
@@ -44,5 +43,3 @@ while True:
 
     if l == n:                                      # wyjście z pętli po n liczbie sygnałów
         break
-
-    i = i + 1
